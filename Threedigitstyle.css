@@ -1,0 +1,120 @@
+@keyframes glow{
+    from {
+        text-shadow: 0 0  #fff, 0 0  #fff, 0 0 #e60073, 0 0  #e60073, 0 0  #e60073, 0 0  #e60073, 0 0  #e60073;
+        font-size:75px;
+    }
+      to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #470ee4, 0 0 30px #ff4da6, 0 0 40px #0debf3, 0 0 50px #ff4da6, 0 0 60px #f8f0f4, 0 0 70px #ff4da6;
+        font-size:75px;  
+    }
+}
+body{
+    background:linear-gradient(45deg,rgb(26, 23, 23),rgb(14, 12, 12));
+}
+#example{
+    font-size:34px;
+    color:white;
+}
+#example h3{
+    text-align:center;
+    animation: glow 1s ease-in infinite alternate;
+}
+#stepone{
+    color:white;
+    font-size:43px;
+}
+#onedigitinput{
+    display:flex;
+}
+h1{
+    color:white;
+    font-size:45px;
+    text-align:center;
+}
+.inputofone{
+    width:440px;
+    height:35px;
+    font-size:34px;
+    float:right;
+}
+
+
+button:hover{
+     background-color:rgb(250, 203, 203);
+     color:darkred;
+     cursor:grab;
+}
+
+#submit1 {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#submit1 button{
+    widows: 123px;
+    border-radius:13px 13px 13px 13px;
+    height:45px;
+    font-size:34px;
+}
+#steptwo{
+    color:white;
+    font-size:43px;
+}
+#onedigitinput{
+    display:flex;
+}
+h1{
+    color:white;
+    font-size:45px;
+    text-align:center;
+}
+
+
+#submit2 {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#submit2 button{
+    widows: 123px;
+    border-radius:13px 13px 13px 13px;
+    height:45px;
+    font-size:34px;
+}
+/*-------------------------*/
+#stepthree{
+    color:white;
+    font-size:43px;
+}
+#onedigitinput{
+    display:flex;
+}
+h1{
+    color:white;
+    font-size:45px;
+    text-align:center;
+}
+
+
+#submit3 {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#submit3 button{
+    widows: 123px;
+    border-radius:13px 13px 13px 13px;
+    height:45px;
+    font-size:34px;
+}
+#finalcheck{
+	color:white;
+	font-size:42px;
+}
+
