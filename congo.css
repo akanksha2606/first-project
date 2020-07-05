@@ -1,0 +1,81 @@
+
+@keyframes change{
+	0%{font-size:356px;}
+	50%{font-size:366px;}
+    100%{font-size:356px;}
+}
+@keyframes tq{
+	0%{text-shadow:8px 4px 20px rgb(0, 0, 0);}
+	50%{text-shadow:8px 4px 20px rgb(172, 47, 130);}
+    100%{text-shadow:8px 4px 20px rgb(240, 49, 214);}
+}
+body{
+	background:linear-gradient(90deg,#43cea2,#185a9d);
+}
+h1{
+	animation:tq 2s ease-out infinite alternate-reverse;
+	font-size:56px;
+}
+#congrats{
+	
+	color:white;
+	width:100%;
+	margin:0px auto;
+	text-align:center;
+}
+#heart{
+	color:gray;
+	font-size:50px;
+}
+#heart.red{
+	color:red;
+}
+#click{
+	width:100%;
+	text-align:center;
+	margin:30px auto;
+	
+}
+#clickbtn{
+	width:100%;
+	height:100%;  
+	font-size:34px;
+    border-radius:30% ;
+}
+#clickbtn:hover{
+	background-color: black;
+	color:white;
+	cursor:grab;
+	text-shadow: 2px 2px 5px red ;
+}
+.heart{
+	color:red;
+	animation: change 1s ease-in infinite alternate-reverse;
+	font-size:356px;
+	margin:0px auto;
+	text-align:center;
+	text-shadow:2px 2px 30px rgb(0, 0, 0),2px 2px 30px rgb(219, 14, 14);
+}
+.redheart{
+	color:gray;
+	font-size:356px;
+	margin:0px auto;
+	text-align:center;
+	text-shadow:2px 2px 20px rgb(5, 5, 5);
+}
+.nahi{
+	color:white;
+	text-align:center;
+	display:initial;
+}
+.ho{
+	color:white;
+	text-align:center;
+	display:none;
+}
+#afterclick h1{
+	animation: tq 2s ease infinite
+alternate-reverse;
+  font-size:44px;
+  
+}
