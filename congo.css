@@ -1,0 +1,40 @@
+@keyframes glow{
+    from {
+        text-shadow: 0 0  #fff, 0 0  #fff, 0 0 #e60073, 0 0  #e60073, 0 0  #e60073, 0 0  #e60073, 0 0  #e60073;
+        font-size:75px;
+    }
+      to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #470ee4, 0 0 30px #ff4da6, 0 0 40px #0debf3, 0 0 50px #ff4da6, 0 0 60px #f8f0f4, 0 0 70px #ff4da6;
+        font-size:75px;  
+    }
+}
+body{
+
+    background:linear-gradient(45deg,black,black,black);
+    color: chocolate;
+} 
+#congo1{
+    font-size:80px;
+    width:100%;
+    text-align: center;
+    margin-top: 250px;
+    animation: glow 1s ease-in infinite alternate;
+    color:white;
+    animation-name: example;
+ }
+ @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: orange;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+#congo2{
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+    color: pink;
+    margin-left: 375px;
+  } 
+
+  
